@@ -1,0 +1,65 @@
+body {
+background-image: url(./images/bg-intro-desktop.png);
+background-color: hsl(0, 100%, 74%);
+font-family: Poppins;
+margin-top: 100px;
+font-size: 16px;
+}
+
+/* CSS Rules for Alert Message (InfoMessage Component) */
+#alert {
+  background-color: hsl(250, 46%, 56%);
+  color: white;
+  padding: 25px 0px 25px 0px;
+}
+
+#alert > div {
+  text-align: center;
+}
+
+/* CSS Rules for Site Message*/
+#siteInfo{
+  color: white;
+
+}
+
+/* CSS Rules for Terms of Service */
+#terms {
+  color: hsl(0, 100%, 74%);
+
+}
+
+.terms-of-service{
+  text-align: center;
+}
+
+/* CSS Rules for Button */
+.btn {
+  background-color: hsl(154, 63%, 39%);
+}
+
+/* CSS Rules for SiteInfo H1 */
+
+h1{
+  font-weight: 700;
+}
+
+
+/* CSS Rules for SiteForm */
+
+.form{
+  background-color: white;
+  padding: 30px;
+  border-radius: 2%;
+}
+
+/* CSS Rules for input fields */
+
+input[type=text]{
+  padding: 25px;
+}
+
+input[type=password]{
+  padding: 25px;
+}
+
